@@ -1,0 +1,494 @@
+
+<div style="max-width: 900px; margin: 0 auto; padding: 1.5rem 0;">
+  <div style="background: var(--surface-2); border-radius: 12px; border: 0.5px solid var(--border); padding: 2rem; margin-bottom: 1rem;">
+    <h1 style="font-size: 24px; font-weight: 500; margin: 0 0 0.5rem; color: var(--text-primary);">Serbia Visa Type C Application</h1>
+    <p style="font-size: 14px; color: var(--text-secondary); margin: 0;">Client Information Checklist - Short Stay Visa</p>
+  </div>
+
+  <form id="visaForm" style="display: flex; flex-direction: column; gap: 1rem;">
+    
+    <!-- SECTION 1: TRAVEL PURPOSE -->
+    <div style="background: var(--surface-2); border-radius: 12px; border: 0.5px solid var(--border); padding: 1.5rem;">
+      <h2 style="font-size: 16px; font-weight: 500; margin: 0 0 1.5rem; padding-bottom: 0.75rem; border-bottom: 0.5px solid var(--border);">Section 1: Travel Purpose</h2>
+      
+      <div style="display: grid; gap: 1rem;">
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Travel Purpose <span style="color: var(--text-danger);">*</span></label>
+          <select style="width: 100%;" required>
+            <option value="">Select...</option>
+            <option>Tourism</option>
+            <option>Business</option>
+            <option>Visit Family</option>
+            <option>Conference/Event</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div>
+            <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Arrival Date (DD-MM-YYYY) <span style="color: var(--text-danger);">*</span></label>
+            <input type="date" style="width: 100%;" placeholder="01-01-2024" required />
+          </div>
+          <div>
+            <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Departure Date (DD-MM-YYYY) <span style="color: var(--text-danger);">*</span></label>
+            <input type="date" style="width: 100%;" placeholder="15-01-2024" required />
+          </div>
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Number of Days of Stay <span style="color: var(--text-danger);">*</span></label>
+          <input type="number" min="1" max="90" style="width: 100%;" placeholder="14" required />
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Border Crossing Point <span style="color: var(--text-danger);">*</span></label>
+          <select style="width: 100%;" required>
+            <option value="">Select...</option>
+            <option>Airport (Belgrade, Niš)</option>
+            <option>Land Border</option>
+            <option>Seaport</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Means of Transport <span style="color: var(--text-danger);">*</span></label>
+          <select style="width: 100%;" required>
+            <option value="">Select...</option>
+            <option>Airplane</option>
+            <option>Car</option>
+            <option>Bus</option>
+            <option>Train</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 2: PERSONAL DATA -->
+    <div style="background: var(--surface-2); border-radius: 12px; border: 0.5px solid var(--border); padding: 1.5rem;">
+      <h2 style="font-size: 16px; font-weight: 500; margin: 0 0 1.5rem; padding-bottom: 0.75rem; border-bottom: 0.5px solid var(--border);">Section 2: Personal Data</h2>
+      
+      <div style="display: grid; gap: 1rem;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div>
+            <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">First Name(s) <span style="color: var(--text-danger);">*</span></label>
+            <input type="text" style="width: 100%;" placeholder="John" required />
+          </div>
+          <div>
+            <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Last Name(s) <span style="color: var(--text-danger);">*</span></label>
+            <input type="text" style="width: 100%;" placeholder="Smith" required />
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div>
+            <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Date of Birth (DD-MM-YYYY) <span style="color: var(--text-danger);">*</span></label>
+            <input type="date" style="width: 100%;" required />
+          </div>
+          <div>
+            <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Gender <span style="color: var(--text-danger);">*</span></label>
+            <select style="width: 100%;" required>
+              <option value="">Select...</option>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Place of Birth <span style="color: var(--text-danger);">*</span></label>
+          <input type="text" style="width: 100%;" placeholder="City, Country" required />
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div>
+            <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Nationality <span style="color: var(--text-danger);">*</span></label>
+            <input type="text" style="width: 100%;" placeholder="e.g., Pakistani" required />
+          </div>
+          <div>
+            <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Current Residence (Country) <span style="color: var(--text-danger);">*</span></label>
+            <input type="text" style="width: 100%;" placeholder="e.g., Pakistan" required />
+          </div>
+        </div>
+
+        <div style="border-top: 0.5px solid var(--border); padding-top: 1.5rem;">
+          <p style="font-size: 14px; font-weight: 500; margin: 0 0 1rem; color: var(--text-primary);">Contact Information</p>
+          <div style="display: grid; gap: 1rem;">
+            <div>
+              <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Email Address <span style="color: var(--text-danger);">*</span></label>
+              <input type="email" style="width: 100%;" placeholder="email@example.com" required />
+            </div>
+            <div>
+              <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Telephone Number <span style="color: var(--text-danger);">*</span></label>
+              <input type="tel" style="width: 100%;" placeholder="+923001234567" required />
+            </div>
+            <div>
+              <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Full Residential Address <span style="color: var(--text-danger);">*</span></label>
+              <textarea style="width: 100%; min-height: 80px; font-family: var(--font-sans);" placeholder="Street, City, Postal Code" required></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 3: TRAVEL DOCUMENTS -->
+    <div style="background: var(--surface-2); border-radius: 12px; border: 0.5px solid var(--border); padding: 1.5rem;">
+      <h2 style="font-size: 16px; font-weight: 500; margin: 0 0 1.5rem; padding-bottom: 0.75rem; border-bottom: 0.5px solid var(--border);">Section 3: Travel Documents</h2>
+      
+      <div style="display: grid; gap: 1rem;">
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Type of Travel Document <span style="color: var(--text-danger);">*</span></label>
+          <select style="width: 100%;" required>
+            <option value="">Select...</option>
+            <option>National Passport</option>
+            <option>Diplomatic Passport</option>
+            <option>Official Passport</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div>
+            <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Travel Document Number <span style="color: var(--text-danger);">*</span></label>
+            <input type="text" style="width: 100%;" placeholder="Passport number" required />
+          </div>
+          <div>
+            <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Country of Issue <span style="color: var(--text-danger);">*</span></label>
+            <input type="text" style="width: 100%;" placeholder="Pakistan" required />
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div>
+            <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Place of Issue <span style="color: var(--text-danger);">*</span></label>
+            <input type="text" style="width: 100%;" placeholder="City" required />
+          </div>
+          <div>
+            <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Date of Issue (DD-MM-YYYY) <span style="color: var(--text-danger);">*</span></label>
+            <input type="date" style="width: 100%;" required />
+          </div>
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Expiration Date (DD-MM-YYYY) <span style="color: var(--text-danger);">*</span></label>
+          <input type="date" style="width: 100%;" required />
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div>
+            <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Live in Country Other Than Origin? <span style="color: var(--text-danger);">*</span></label>
+            <select style="width: 100%;" required>
+              <option value="">Select...</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+          <div>
+            <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Return Permit Available? <span style="color: var(--text-danger);">*</span></label>
+            <select style="width: 100%;" required>
+              <option value="">Select...</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div>
+            <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Permit Number (if applicable)</label>
+            <input type="text" style="width: 100%;" placeholder="Leave blank if N/A" />
+          </div>
+          <div>
+            <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Permit Valid Until (DD-MM-YYYY)</label>
+            <input type="date" style="width: 100%;" />
+          </div>
+        </div>
+
+        <p style="font-size: 13px; color: var(--text-secondary); margin: 0.5rem 0 0; padding: 0.75rem; background: var(--bg-warning); border-radius: var(--radius); border: 0.5px solid var(--border-warning);">
+          <i class="ti ti-alert-circle" style="margin-right: 0.5rem; vertical-align: -1px;"></i>
+          Document must be issued within last 10 years and have at least 2 blank pages
+        </p>
+      </div>
+    </div>
+
+    <!-- SECTION 4: VISA INFORMATION -->
+    <div style="background: var(--surface-2); border-radius: 12px; border: 0.5px solid var(--border); padding: 1.5rem;">
+      <h2 style="font-size: 16px; font-weight: 500; margin: 0 0 1.5rem; padding-bottom: 0.75rem; border-bottom: 0.5px solid var(--border);">Section 4: Visa Information</h2>
+      
+      <div style="display: grid; gap: 1rem;">
+        <div style="padding: 1rem; background: var(--bg-accent); border-radius: var(--radius); border: 0.5px solid var(--border-accent);">
+          <p style="font-size: 14px; font-weight: 500; margin: 0; color: var(--text-accent);">Visa Type: Type C - Short Stay (up to 90 days within 180 days)</p>
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Embassy/Consulate <span style="color: var(--text-danger);">*</span></label>
+          <input type="text" style="width: 100%;" placeholder="e.g., Embassy of Serbia in Islamabad" required />
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Previous Serbia Visas (Last 3 Years)? <span style="color: var(--text-danger);">*</span></label>
+          <select style="width: 100%;" required>
+            <option value="">Select...</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">If Yes, Provide Details</label>
+          <textarea style="width: 100%; min-height: 60px; font-family: var(--font-sans);" placeholder="Visa dates, duration, etc."></textarea>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 5: EMPLOYMENT & FINANCIAL -->
+    <div style="background: var(--surface-2); border-radius: 12px; border: 0.5px solid var(--border); padding: 1.5rem;">
+      <h2 style="font-size: 16px; font-weight: 500; margin: 0 0 1.5rem; padding-bottom: 0.75rem; border-bottom: 0.5px solid var(--border);">Section 5: Employment & Financial Information</h2>
+      
+      <div style="display: grid; gap: 1rem;">
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Current Profession/Occupation <span style="color: var(--text-danger);">*</span></label>
+          <input type="text" style="width: 100%;" placeholder="e.g., Software Engineer" required />
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Employer's Company Name</label>
+          <input type="text" style="width: 100%;" placeholder="Company name" />
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Employer's Full Address</label>
+          <input type="text" style="width: 100%;" placeholder="Complete address" />
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Employer's Telephone Number</label>
+          <input type="tel" style="width: 100%;" placeholder="+923001234567" />
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Employment Contract/Letter <span style="color: var(--text-danger);">*</span></label>
+          <div style="border: 2px dashed var(--border-strong); border-radius: var(--radius); padding: 1.5rem; text-align: center; cursor: pointer;">
+            <i class="ti ti-upload" style="font-size: 24px; color: var(--text-secondary); display: block; margin-bottom: 0.5rem;"></i>
+            <input type="file" accept=".pdf,.doc,.docx" style="opacity: 0; position: absolute; width: 100%; height: 100%; cursor: pointer;" />
+            <p style="font-size: 14px; font-weight: 500; margin: 0; color: var(--text-primary);">Upload file</p>
+            <p style="font-size: 12px; color: var(--text-secondary); margin: 0.5rem 0 0;">PDF, DOC, DOCX accepted</p>
+          </div>
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Proof of Financial Means <span style="color: var(--text-danger);">*</span></label>
+          <div style="border: 2px dashed var(--border-strong); border-radius: var(--radius); padding: 1.5rem; text-align: center; cursor: pointer;">
+            <i class="ti ti-upload" style="font-size: 24px; color: var(--text-secondary); display: block; margin-bottom: 0.5rem;"></i>
+            <input type="file" accept=".pdf,.doc,.docx" style="opacity: 0; position: absolute; width: 100%; height: 100%; cursor: pointer;" />
+            <p style="font-size: 14px; font-weight: 500; margin: 0; color: var(--text-primary);">Upload file</p>
+            <p style="font-size: 12px; color: var(--text-secondary); margin: 0.5rem 0 0;">Bank statements, income documents</p>
+          </div>
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Sponsorship Details (if applicable)</label>
+          <textarea style="width: 100%; min-height: 60px; font-family: var(--font-sans);" placeholder="Sponsor name, address, relationship"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 6: FAMILY INFORMATION -->
+    <div style="background: var(--surface-2); border-radius: 12px; border: 0.5px solid var(--border); padding: 1.5rem;">
+      <h2 style="font-size: 16px; font-weight: 500; margin: 0 0 1.5rem; padding-bottom: 0.75rem; border-bottom: 0.5px solid var(--border);">Section 6: Family Information (Optional)</h2>
+      
+      <div style="display: grid; gap: 1.5rem;">
+        <div>
+          <p style="font-size: 13px; font-weight: 500; margin: 0 0 1rem; color: var(--text-secondary);">Spouse/Partner Details (if traveling)</p>
+          <div style="display: grid; gap: 1rem;">
+            <div>
+              <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Full Name</label>
+              <input type="text" style="width: 100%;" placeholder="Name" />
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div>
+                <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Date of Birth (DD-MM-YYYY)</label>
+                <input type="date" style="width: 100%;" />
+              </div>
+              <div>
+                <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Nationality</label>
+                <input type="text" style="width: 100%;" placeholder="Nationality" />
+              </div>
+            </div>
+            <div>
+              <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Passport Number</label>
+              <input type="text" style="width: 100%;" placeholder="Passport number" />
+            </div>
+          </div>
+        </div>
+
+        <div style="border-top: 0.5px solid var(--border); padding-top: 1rem;">
+          <p style="font-size: 13px; font-weight: 500; margin: 0 0 1rem; color: var(--text-secondary);">Children Details (if traveling)</p>
+          <p style="font-size: 12px; color: var(--text-secondary); margin: 0; padding: 0.75rem; background: var(--bg-accent); border-radius: var(--radius); border: 0.5px solid var(--border-accent);">
+            Add each child separately. Include full names, dates of birth, nationality, and passport numbers.
+          </p>
+          <button type="button" style="margin-top: 1rem; padding: 0.5rem 1rem; border: 0.5px solid var(--border-strong); border-radius: var(--radius); background: transparent; cursor: pointer; font-size: 14px; color: var(--text-primary); display: flex; align-items: center; gap: 0.5rem;">
+            <i class="ti ti-plus" style="font-size: 16px;"></i>Add child
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 7: ACCOMMODATION -->
+    <div style="background: var(--surface-2); border-radius: 12px; border: 0.5px solid var(--border); padding: 1.5rem;">
+      <h2 style="font-size: 16px; font-weight: 500; margin: 0 0 1.5rem; padding-bottom: 0.75rem; border-bottom: 0.5px solid var(--border);">Section 7: Accommodation & Sponsorship</h2>
+      
+      <div style="display: grid; gap: 1rem;">
+        <p style="font-size: 13px; color: var(--text-secondary); margin: 0; font-weight: 500;">Select accommodation type:</p>
+        
+        <div>
+          <input type="radio" id="hotel" name="accommodation" value="hotel" />
+          <label for="hotel" style="display: inline; font-size: 14px; margin-left: 0.5rem;">Hotel Booking</label>
+        </div>
+
+        <div>
+          <input type="radio" id="private" name="accommodation" value="private" />
+          <label for="private" style="display: inline; font-size: 14px; margin-left: 0.5rem;">Private Accommodation</label>
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin: 1rem 0 0.5rem; color: var(--text-primary);">Hotel Booking Confirmation <span style="color: var(--text-danger);">*</span></label>
+          <div style="border: 2px dashed var(--border-strong); border-radius: var(--radius); padding: 1.5rem; text-align: center; cursor: pointer;">
+            <i class="ti ti-upload" style="font-size: 24px; color: var(--text-secondary); display: block; margin-bottom: 0.5rem;"></i>
+            <input type="file" accept=".pdf,.doc,.docx" style="opacity: 0; position: absolute; width: 100%; height: 100%; cursor: pointer;" />
+            <p style="font-size: 14px; font-weight: 500; margin: 0; color: var(--text-primary);">Upload file</p>
+          </div>
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin: 1rem 0 0.5rem; color: var(--text-primary);">Travel Insurance Documentation <span style="color: var(--text-danger);">*</span></label>
+          <div style="border: 2px dashed var(--border-strong); border-radius: var(--radius); padding: 1.5rem; text-align: center; cursor: pointer;">
+            <i class="ti ti-upload" style="font-size: 24px; color: var(--text-secondary); display: block; margin-bottom: 0.5rem;"></i>
+            <input type="file" accept=".pdf,.doc,.docx" style="opacity: 0; position: absolute; width: 100%; height: 100%; cursor: pointer;" />
+            <p style="font-size: 14px; font-weight: 500; margin: 0; color: var(--text-primary);">Upload file</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 8: SUPPORTING DOCUMENTS -->
+    <div style="background: var(--surface-2); border-radius: 12px; border: 0.5px solid var(--border); padding: 1.5rem;">
+      <h2 style="font-size: 16px; font-weight: 500; margin: 0 0 1.5rem; padding-bottom: 0.75rem; border-bottom: 0.5px solid var(--border);">Section 8: Supporting Documents</h2>
+      
+      <div style="display: grid; gap: 1rem;">
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Valid Passport/Travel Document (Copy) <span style="color: var(--text-danger);">*</span></label>
+          <div style="border: 2px dashed var(--border-strong); border-radius: var(--radius); padding: 1.5rem; text-align: center; cursor: pointer;">
+            <i class="ti ti-upload" style="font-size: 24px; color: var(--text-secondary); display: block; margin-bottom: 0.5rem;"></i>
+            <input type="file" accept=".pdf,.jpg,.jpeg,.png" style="opacity: 0; position: absolute; width: 100%; height: 100%; cursor: pointer;" />
+            <p style="font-size: 14px; font-weight: 500; margin: 0; color: var(--text-primary);">Upload file</p>
+          </div>
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Passport-Sized Photo (4x6 cm, Recent Color) <span style="color: var(--text-danger);">*</span></label>
+          <div style="border: 2px dashed var(--border-strong); border-radius: var(--radius); padding: 1.5rem; text-align: center; cursor: pointer;">
+            <i class="ti ti-upload" style="font-size: 24px; color: var(--text-secondary); display: block; margin-bottom: 0.5rem;"></i>
+            <input type="file" accept=".jpg,.jpeg,.png" style="opacity: 0; position: absolute; width: 100%; height: 100%; cursor: pointer;" />
+            <p style="font-size: 14px; font-weight: 500; margin: 0; color: var(--text-primary);">Upload file</p>
+          </div>
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Travel Itinerary/Flight Bookings <span style="color: var(--text-danger);">*</span></label>
+          <div style="border: 2px dashed var(--border-strong); border-radius: var(--radius); padding: 1.5rem; text-align: center; cursor: pointer;">
+            <i class="ti ti-upload" style="font-size: 24px; color: var(--text-secondary); display: block; margin-bottom: 0.5rem;"></i>
+            <input type="file" accept=".pdf" style="opacity: 0; position: absolute; width: 100%; height: 100%; cursor: pointer;" />
+            <p style="font-size: 14px; font-weight: 500; margin: 0; color: var(--text-primary);">Upload file</p>
+          </div>
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Bank Statements (Last 3 Months) <span style="color: var(--text-danger);">*</span></label>
+          <div style="border: 2px dashed var(--border-strong); border-radius: var(--radius); padding: 1.5rem; text-align: center; cursor: pointer;">
+            <i class="ti ti-upload" style="font-size: 24px; color: var(--text-secondary); display: block; margin-bottom: 0.5rem;"></i>
+            <input type="file" accept=".pdf" style="opacity: 0; position: absolute; width: 100%; height: 100%; cursor: pointer;" />
+            <p style="font-size: 14px; font-weight: 500; margin: 0; color: var(--text-primary);">Upload file</p>
+          </div>
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Employment Letter/Contract (if applicable)</label>
+          <div style="border: 2px dashed var(--border-strong); border-radius: var(--radius); padding: 1.5rem; text-align: center; cursor: pointer;">
+            <i class="ti ti-upload" style="font-size: 24px; color: var(--text-secondary); display: block; margin-bottom: 0.5rem;"></i>
+            <input type="file" accept=".pdf,.doc,.docx" style="opacity: 0; position: absolute; width: 100%; height: 100%; cursor: pointer;" />
+            <p style="font-size: 14px; font-weight: 500; margin: 0; color: var(--text-primary);">Upload file</p>
+          </div>
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Police Clearance/Background Check (if applicable)</label>
+          <div style="border: 2px dashed var(--border-strong); border-radius: var(--radius); padding: 1.5rem; text-align: center; cursor: pointer;">
+            <i class="ti ti-upload" style="font-size: 24px; color: var(--text-secondary); display: block; margin-bottom: 0.5rem;"></i>
+            <input type="file" accept=".pdf" style="opacity: 0; position: absolute; width: 100%; height: 100%; cursor: pointer;" />
+            <p style="font-size: 14px; font-weight: 500; margin: 0; color: var(--text-primary);">Upload file</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 9: FEES -->
+    <div style="background: var(--surface-2); border-radius: 12px; border: 0.5px solid var(--border); padding: 1.5rem;">
+      <h2 style="font-size: 16px; font-weight: 500; margin: 0 0 1.5rem; padding-bottom: 0.75rem; border-bottom: 0.5px solid var(--border);">Section 9: Visa Application Fee</h2>
+      
+      <div style="display: grid; gap: 1rem;">
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Visa Application Fee Amount <span style="color: var(--text-danger);">*</span></label>
+          <input type="number" step="0.01" style="width: 100%;" placeholder="e.g., 45.00" required />
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Payment Method <span style="color: var(--text-danger);">*</span></label>
+          <select style="width: 100%;" required>
+            <option value="">Select...</option>
+            <option>Bank Transfer</option>
+            <option>Credit Card</option>
+            <option>Cash</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Proof of Payment <span style="color: var(--text-danger);">*</span></label>
+          <div style="border: 2px dashed var(--border-strong); border-radius: var(--radius); padding: 1.5rem; text-align: center; cursor: pointer;">
+            <i class="ti ti-upload" style="font-size: 24px; color: var(--text-secondary); display: block; margin-bottom: 0.5rem;"></i>
+            <input type="file" accept=".pdf,.jpg,.jpeg,.png" style="opacity: 0; position: absolute; width: 100%; height: 100%; cursor: pointer;" />
+            <p style="font-size: 14px; font-weight: 500; margin: 0; color: var(--text-primary);">Upload receipt/proof</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- IMPORTANT REMINDERS -->
+    <div style="background: var(--bg-warning); border-radius: 12px; border: 0.5px solid var(--border-warning); padding: 1.5rem;">
+      <h3 style="font-size: 14px; font-weight: 500; margin: 0 0 1rem; color: var(--text-warning);">Important Reminders</h3>
+      <ul style="margin: 0; padding-left: 1.25rem; font-size: 13px; color: var(--text-warning);">
+        <li style="margin-bottom: 0.5rem;">All dates must be in DD-MM-YYYY format</li>
+        <li style="margin-bottom: 0.5rem;">Documents must be originals or certified copies</li>
+        <li style="margin-bottom: 0.5rem;">All foreign documents must be translated to English or Serbian</li>
+        <li style="margin-bottom: 0.5rem;">Passport valid for at least 3 months after departure from Serbia</li>
+        <li style="margin-bottom: 0.5rem;">Type C Visa valid for short-term stays (up to 90 days within 180 days)</li>
+      </ul>
+    </div>
+
+    <!-- SUBMIT BUTTON -->
+    <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+      <button type="reset" style="flex: 1; padding: 0.75rem 1rem; border: 0.5px solid var(--border-strong); border-radius: var(--radius); background: transparent; cursor: pointer; font-size: 14px; font-weight: 500; color: var(--text-primary);">Clear Form</button>
+      <button type="submit" style="flex: 1; padding: 0.75rem 1rem; border: 0.5px solid var(--fill-accent); background: var(--fill-accent); color: var(--on-accent); border-radius: var(--radius); cursor: pointer; font-size: 14px; font-weight: 500;">Save Application</button>
+    </div>
+  </form>
+</div>
+
+<script>
+document.getElementById('visaForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  alert('Form saved! ✓\n\nNext: Review all fields and upload required documents.');
+});
+</script>
